@@ -168,11 +168,19 @@ class MainActivity : AppCompatActivity() {
             0 - angleBInDegrees
         }
 
-        if (binding.fl.rotation > 0 && binding.fl.rotation < (360/2)) {
-
-        } else {
-
-        }
+//        return if (binding.fl.rotation > 0 && binding.fl.rotation < (360/2)) {
+//            if (180 - result + viewRotation > limitRotate) {
+//                limitRotate.toFloat()
+//            } else {
+//                180 - result.toFloat()
+//            }
+//        } else {
+//            if (180 - result + viewRotation > 360 - limitRotate) {
+//                360 - limitRotate.toFloat()
+//            } else {
+//                180 - result.toFloat()
+//            }
+//        }
 
 
         return 180 - result.toFloat()
